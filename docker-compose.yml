@@ -1,0 +1,21 @@
+version: '3'
+
+services:
+  frontend:
+    build: .
+    ports:
+      - "3000:3000"
+    depends_on:
+      - backend
+    environment:
+      REACT_APP_BACKEND_URL: http://backend:3001
+      
+  backend:
+    build: ./server
+    ports:
+      - "3001:3001"
+    environment:
+      ICLOUD_EMAIL_USER: shu1204ya@icloud.com
+      ICLOUD_APP_SPECIFIC_PASSWORD: oosx-qkqg-rsaf-gsug
+      RECIPIENT_EMAIL: shuyaikeo@gmail.com
+
