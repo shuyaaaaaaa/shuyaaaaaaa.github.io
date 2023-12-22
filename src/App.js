@@ -257,7 +257,7 @@ function handleFormSubmit(e) {
                         onClick={() => window.open("https://github.com/shuyaaaaaaa", "_blank")}
                         style={{cursor: "pointer"}}></i>
                         <i class="fa-brands fa-linkedin"
-                        onClick={() => window.open("https://www.linkedin.com/in/shuya-ikeo-072990291/", "_blank")}
+                        onClick={() => window.open("https://www.linkedin.com/in/shuya-ikeo-79228b295/", "_blank")}
                         style={{cursor: "pointer"}}></i>
                         <i class="fa-solid fa-file"
                         onClick={() => window.open("https://github.com/shuyaaaaaaa/My-CV/blob/main/Shuya%20Ikeo_%20CV.pdf", "_blank")}
